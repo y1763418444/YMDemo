@@ -1,0 +1,6 @@
+framework module Pods_YMDemo {
+  umbrella header "Pods-YMDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
