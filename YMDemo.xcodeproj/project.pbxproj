@@ -24,6 +24,7 @@
 		2E2B008A1EA5F21F005E59A6 /* TableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B007F1EA5F21F005E59A6 /* TableViewHeaderView.swift */; };
 		2E2B008C1EA5F368005E59A6 /* LJCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B008B1EA5F368005E59A6 /* LJCollectionViewFlowLayout.swift */; };
 		2E2B00B91EA73C3E005E59A6 /* YMCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B00B81EA73C3E005E59A6 /* YMCHViewController.m */; };
+		2E2B00BB1EA8543D005E59A6 /* YMHHH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B00BA1EA8543D005E59A6 /* YMHHH.swift */; };
 		2E351D2E1EA07DC500859FE0 /* ShareSDKConfigFile.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E351D031EA07DC500859FE0 /* ShareSDKConfigFile.bundle */; };
 		2E351D2F1EA07DC500859FE0 /* ShareSDKConfigFile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E351D041EA07DC500859FE0 /* ShareSDKConfigFile.framework */; };
 		2E351D301EA07DC500859FE0 /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E351D051EA07DC500859FE0 /* ShareSDKExtension.framework */; };
@@ -111,6 +112,7 @@
 		2E2B008B1EA5F368005E59A6 /* LJCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		2E2B00B71EA73C3E005E59A6 /* YMCHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCHViewController.h; sourceTree = "<group>"; };
 		2E2B00B81EA73C3E005E59A6 /* YMCHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCHViewController.m; sourceTree = "<group>"; };
+		2E2B00BA1EA8543D005E59A6 /* YMHHH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMHHH.swift; sourceTree = "<group>"; };
 		2E351D031EA07DC500859FE0 /* ShareSDKConfigFile.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKConfigFile.bundle; sourceTree = "<group>"; };
 		2E351D041EA07DC500859FE0 /* ShareSDKConfigFile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConfigFile.framework; sourceTree = "<group>"; };
 		2E351D051EA07DC500859FE0 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 				2E2B007F1EA5F21F005E59A6 /* TableViewHeaderView.swift */,
 				2E2B00B71EA73C3E005E59A6 /* YMCHViewController.h */,
 				2E2B00B81EA73C3E005E59A6 /* YMCHViewController.m */,
+				2E2B00BA1EA8543D005E59A6 /* YMHHH.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -799,6 +802,7 @@
 				2E735E1D1E9F1C9F00F0A485 /* YMChatVC.swift in Sources */,
 				2E735DFD1E9F18C900F0A485 /* YMBaseTabbarVC.swift in Sources */,
 				2E2B00871EA5F21F005E59A6 /* LeftTableViewCell.swift in Sources */,
+				2E2B00BB1EA8543D005E59A6 /* YMHHH.swift in Sources */,
 				2E2B00811EA5F21F005E59A6 /* CollectionViewCell.swift in Sources */,
 				2E735E2D1E9F26D500F0A485 /* YMConstant.swift in Sources */,
 				2E2B008C1EA5F368005E59A6 /* LJCollectionViewFlowLayout.swift in Sources */,
