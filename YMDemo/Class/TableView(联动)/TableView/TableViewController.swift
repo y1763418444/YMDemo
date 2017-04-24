@@ -52,7 +52,7 @@ class TableViewController: YMBaseVC, UITableViewDataSource, UITableViewDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addRunloopObserver()
+//        addRunloopObserver()
         
         navTitleLabel.text = "TableView - TableView"
         view.backgroundColor = UIColor.white

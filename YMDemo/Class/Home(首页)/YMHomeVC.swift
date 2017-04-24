@@ -16,6 +16,13 @@ class YMHomeVC: YMBaseVC {
         navLeftButton.isHidden = true
         
         view.addSubview(tableView)
+        YMNetworkTool.shareNetworkTool.getRequestNetwork(params: [:]) { (res, error) in
+            guard error == nil else{
+                print(error!)
+                return
+            }
+            print(res!)
+        }
     }
     
     lazy var tableView : UITableView = { [unowned self] in
@@ -28,13 +35,15 @@ class YMHomeVC: YMBaseVC {
     
     // 数据
     lazy var dataArray : NSArray = {
-        var arr:[String] = ["登录","AlertView","TableView(联动)"]
+        // 下拉加载 动画 未实现
+        // 网络请求 未实现 https
+        var arr:[String] = ["登录","AlertView","TableView(联动)","RSA/RSA+MD5加密","柱状图"]
         return arr as NSArray
     }()
     
     // 控制器
     lazy var vcsArray : NSArray = {
-        var arr = [YMLoginVC(),YMAlertViewVC(),YMTableVC()]
+        var arr = [YMLoginVC(),YMAlertViewVC(),YMTableVC(),YMRSAVC(),YMBarChartVC()]
         return arr as NSArray
     }()
 

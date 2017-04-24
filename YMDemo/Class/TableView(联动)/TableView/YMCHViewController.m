@@ -40,7 +40,9 @@ void CallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *i
 }
 
 - (void)addRunloopObserver{
+    // 当前线程
     CFRunLoopRef runloop = CFRunLoopGetCurrent();
+    // 上下文
     CFRunLoopObserverContext context = {
         0,
         (__bridge void *)(self),
@@ -49,7 +51,9 @@ void CallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *i
         NULL
     };
     static CFRunLoopObserverRef defultModeObserver;
+    // 创建观察者
     defultModeObserver = CFRunLoopObserverCreate(NULL, kCFRunLoopAfterWaiting, YES, 0, &CallBack, &context);
+    // 添加观察者
     CFRunLoopAddObserver(runloop, defultModeObserver, kCFRunLoopCommonModes);
     CFRelease(defultModeObserver);
 }
