@@ -88,6 +88,9 @@ class YMBaseVC: UIViewController {
         Line.backgroundColor = YMColorHexString(colorStr: "cccccc")
         return Line
     }()
+    
+    
+    
 
 
     override func didReceiveMemoryWarning() {

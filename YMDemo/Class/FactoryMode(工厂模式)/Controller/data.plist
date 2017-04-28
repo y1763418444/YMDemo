@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>plcUrl</key>
+		<string>1.png</string>
+		<key>name</key>
+		<string>See You</string>
+		<key>singer</key>
+		<string>Maroon</string>
+		<key>tag</key>
+		<string>music</string>
+	</dict>
+	<dict>
+		<key>plcUrl</key>
+		<string>1.png</string>
+		<key>name</key>
+		<string>See You</string>
+		<key>singer</key>
+		<string>Maroon</string>
+		<key>tag</key>
+		<string>music</string>
+	</dict>
+	<dict>
+		<key>tag</key>
+		<string>images</string>
+		<key>imgsrc1</key>
+		<string>1.png</string>
+		<key>imgsrc2</key>
+		<string>2.png</string>
+		<key>imgsrc3</key>
+		<string>3.jpeg</string>
+	</dict>
+	<dict>
+		<key>tag</key>
+		<string>images</string>
+		<key>imgsrc1</key>
+		<string>1.png</string>
+		<key>imgsrc2</key>
+		<string>2.png</string>
+		<key>imgsrc3</key>
+		<string>4.jpeg</string>
+	</dict>
+	<dict>
+		<key>tag</key>
+		<string>news</string>
+		<key>title</key>
+		<string>NBA 勇士大战马刺</string>
+		<key>imgsrc</key>
+		<string>5.jpeg</string>
+	</dict>
+	<dict>
+		<key>tag</key>
+		<string>news</string>
+		<key>title</key>
+		<string>NBA 勇士大战马刺</string>
+		<key>imgsrc</key>
+		<string>5.jpeg</string>
+	</dict>
+</array>
+</plist>

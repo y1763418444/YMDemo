@@ -59,6 +59,20 @@
 		2E3A12391EADA11100854F4B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12361EADA11100854F4B /* UIColor+Hex.m */; };
 		2E3A123A1EADA11100854F4B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12381EADA11100854F4B /* UIView+Extension.m */; };
 		2E3A123E1EADAE1000854F4B /* YMBarChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A123D1EADAE1000854F4B /* YMBarChartVC.swift */; };
+		2E3A12471EAEEA1D00854F4B /* ZFCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12421EAEEA1D00854F4B /* ZFCircle.m */; };
+		2E3A12481EAEEA1D00854F4B /* ZFLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12441EAEEA1D00854F4B /* ZFLine.m */; };
+		2E3A12491EAEEA1D00854F4B /* ZFLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12461EAEEA1D00854F4B /* ZFLineChart.m */; };
+		2E3A124B1EAEEA3300854F4B /* YMLineChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A124A1EAEEA3300854F4B /* YMLineChartVC.swift */; };
+		2E3A124E1EAEEAC900854F4B /* ZFConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A124D1EAEEAC900854F4B /* ZFConst.m */; };
+		2E3A12511EAEEB1100854F4B /* ZFGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12501EAEEB1100854F4B /* ZFGenericChart.m */; };
+		2E3A12541EAEEB6200854F4B /* ZFPopoverLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12531EAEEB6200854F4B /* ZFPopoverLabel.m */; };
+		2E3A12571EAEEC1C00854F4B /* ZFGenericAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12561EAEEC1C00854F4B /* ZFGenericAxis.m */; };
+		2E3A125C1EAEEC7000854F4B /* UIView+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12591EAEEC7000854F4B /* UIView+Zirkfied.m */; };
+		2E3A125D1EAEEC7000854F4B /* ZFXAxisLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A125B1EAEEC7000854F4B /* ZFXAxisLine.m */; };
+		2E3A12601EAEECA300854F4B /* ZFYAxisLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A125F1EAEECA300854F4B /* ZFYAxisLine.m */; };
+		2E3A12631EAEECC900854F4B /* ZFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12621EAEECC900854F4B /* ZFLabel.m */; };
+		2E3A12681EAEEE7300854F4B /* NSString+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12651EAEEE7300854F4B /* NSString+Zirkfied.m */; };
+		2E3A12691EAEEE7300854F4B /* ZFMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A12671EAEEE7300854F4B /* ZFMethod.m */; };
 		2E41CA341EA9AEC900BACCCD /* server.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2E41CA331EA9AEC900BACCCD /* server.cer */; };
 		2E735DE01E9F13D700F0A485 /* YMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E735DDF1E9F13D700F0A485 /* YMDemoTests.swift */; };
 		2E735DEB1E9F13D700F0A485 /* YMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E735DEA1E9F13D700F0A485 /* YMDemoUITests.swift */; };
@@ -87,6 +101,22 @@
 		2E735E8F1E9F7F6500F0A485 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E735E8E1E9F7F6500F0A485 /* ImageIO.framework */; };
 		2E735E911E9F7F7100F0A485 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E735E901E9F7F7100F0A485 /* libsqlite3.tbd */; };
 		2E735E941EA06A3100F0A485 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E735E931EA06A3100F0A485 /* Info.plist */; };
+		2E9950BD1EB0882A00E27F4F /* FPSDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950BC1EB0882A00E27F4F /* FPSDisplay.m */; };
+		2E9950C81EB1815500E27F4F /* YMFactroyModeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950C51EB1815500E27F4F /* YMFactroyModeVC.swift */; };
+		2E9950CA1EB1818000E27F4F /* YMBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950C91EB1818000E27F4F /* YMBaseModel.swift */; };
+		2E9950CC1EB181E000E27F4F /* YMImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950CB1EB181E000E27F4F /* YMImagesModel.swift */; };
+		2E9950CE1EB181EF00E27F4F /* YMNewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950CD1EB181EF00E27F4F /* YMNewModel.swift */; };
+		2E9950D01EB1820700E27F4F /* YMMusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950CF1EB1820700E27F4F /* YMMusicModel.swift */; };
+		2E9950D21EB1843700E27F4F /* YMBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950D11EB1843700E27F4F /* YMBaseCell.swift */; };
+		2E9950D41EB1876300E27F4F /* YMImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950D31EB1876300E27F4F /* YMImagesCell.swift */; };
+		2E9950D61EB1876E00E27F4F /* YMNewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950D51EB1876E00E27F4F /* YMNewCell.swift */; };
+		2E9950D81EB1877900E27F4F /* YMMusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9950D71EB1877900E27F4F /* YMMusicCell.swift */; };
+		2E9950DA1EB1B91300E27F4F /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E9950D91EB1B91300E27F4F /* data.plist */; };
+		2E9950EB1EB1E1AE00E27F4F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9950E61EB1E1AE00E27F4F /* 1.png */; };
+		2E9950EC1EB1E1AE00E27F4F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9950E71EB1E1AE00E27F4F /* 2.png */; };
+		2E9950F31EB1E21D00E27F4F /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9950F01EB1E21D00E27F4F /* 3.jpeg */; };
+		2E9950F41EB1E21D00E27F4F /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9950F11EB1E21D00E27F4F /* 4.jpeg */; };
+		2E9950F91EB1F35F00E27F4F /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9950F81EB1F35F00E27F4F /* 5.jpeg */; };
 		634DA76425023A9570E96882 /* Pods_YMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEC3B475870E2C7F5A42C3D /* Pods_YMDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -258,6 +288,33 @@
 		2E3A12371EADA11100854F4B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		2E3A12381EADA11100854F4B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		2E3A123D1EADAE1000854F4B /* YMBarChartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMBarChartVC.swift; sourceTree = "<group>"; };
+		2E3A12411EAEEA1D00854F4B /* ZFCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCircle.h; sourceTree = "<group>"; };
+		2E3A12421EAEEA1D00854F4B /* ZFCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCircle.m; sourceTree = "<group>"; };
+		2E3A12431EAEEA1D00854F4B /* ZFLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLine.h; sourceTree = "<group>"; };
+		2E3A12441EAEEA1D00854F4B /* ZFLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLine.m; sourceTree = "<group>"; };
+		2E3A12451EAEEA1D00854F4B /* ZFLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLineChart.h; sourceTree = "<group>"; };
+		2E3A12461EAEEA1D00854F4B /* ZFLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLineChart.m; sourceTree = "<group>"; };
+		2E3A124A1EAEEA3300854F4B /* YMLineChartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMLineChartVC.swift; sourceTree = "<group>"; };
+		2E3A124C1EAEEAC900854F4B /* ZFConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFConst.h; sourceTree = "<group>"; };
+		2E3A124D1EAEEAC900854F4B /* ZFConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFConst.m; sourceTree = "<group>"; };
+		2E3A124F1EAEEB1100854F4B /* ZFGenericChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFGenericChart.h; sourceTree = "<group>"; };
+		2E3A12501EAEEB1100854F4B /* ZFGenericChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFGenericChart.m; sourceTree = "<group>"; };
+		2E3A12521EAEEB6200854F4B /* ZFPopoverLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPopoverLabel.h; sourceTree = "<group>"; };
+		2E3A12531EAEEB6200854F4B /* ZFPopoverLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPopoverLabel.m; sourceTree = "<group>"; };
+		2E3A12551EAEEC1C00854F4B /* ZFGenericAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFGenericAxis.h; sourceTree = "<group>"; };
+		2E3A12561EAEEC1C00854F4B /* ZFGenericAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFGenericAxis.m; sourceTree = "<group>"; };
+		2E3A12581EAEEC7000854F4B /* UIView+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Zirkfied.h"; sourceTree = "<group>"; };
+		2E3A12591EAEEC7000854F4B /* UIView+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Zirkfied.m"; sourceTree = "<group>"; };
+		2E3A125A1EAEEC7000854F4B /* ZFXAxisLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFXAxisLine.h; sourceTree = "<group>"; };
+		2E3A125B1EAEEC7000854F4B /* ZFXAxisLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFXAxisLine.m; sourceTree = "<group>"; };
+		2E3A125E1EAEECA300854F4B /* ZFYAxisLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFYAxisLine.h; sourceTree = "<group>"; };
+		2E3A125F1EAEECA300854F4B /* ZFYAxisLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFYAxisLine.m; sourceTree = "<group>"; };
+		2E3A12611EAEECC900854F4B /* ZFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFLabel.h; sourceTree = "<group>"; };
+		2E3A12621EAEECC900854F4B /* ZFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFLabel.m; sourceTree = "<group>"; };
+		2E3A12641EAEEE7300854F4B /* NSString+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Zirkfied.h"; sourceTree = "<group>"; };
+		2E3A12651EAEEE7300854F4B /* NSString+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Zirkfied.m"; sourceTree = "<group>"; };
+		2E3A12661EAEEE7300854F4B /* ZFMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFMethod.h; sourceTree = "<group>"; };
+		2E3A12671EAEEE7300854F4B /* ZFMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFMethod.m; sourceTree = "<group>"; };
 		2E41CA331EA9AEC900BACCCD /* server.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = server.cer; sourceTree = "<group>"; };
 		2E735DC71E9F13D700F0A485 /* YMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E735DDB1E9F13D700F0A485 /* YMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -292,6 +349,23 @@
 		2E735E901E9F7F7100F0A485 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		2E735E921EA05D2500F0A485 /* YMDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YMDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		2E735E931EA06A3100F0A485 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
+		2E9950BB1EB0882A00E27F4F /* FPSDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSDisplay.h; sourceTree = "<group>"; };
+		2E9950BC1EB0882A00E27F4F /* FPSDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSDisplay.m; sourceTree = "<group>"; };
+		2E9950C51EB1815500E27F4F /* YMFactroyModeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMFactroyModeVC.swift; sourceTree = "<group>"; };
+		2E9950C91EB1818000E27F4F /* YMBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMBaseModel.swift; sourceTree = "<group>"; };
+		2E9950CB1EB181E000E27F4F /* YMImagesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMImagesModel.swift; sourceTree = "<group>"; };
+		2E9950CD1EB181EF00E27F4F /* YMNewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMNewModel.swift; sourceTree = "<group>"; };
+		2E9950CF1EB1820700E27F4F /* YMMusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMMusicModel.swift; sourceTree = "<group>"; };
+		2E9950D11EB1843700E27F4F /* YMBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMBaseCell.swift; sourceTree = "<group>"; };
+		2E9950D31EB1876300E27F4F /* YMImagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMImagesCell.swift; sourceTree = "<group>"; };
+		2E9950D51EB1876E00E27F4F /* YMNewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMNewCell.swift; sourceTree = "<group>"; };
+		2E9950D71EB1877900E27F4F /* YMMusicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMMusicCell.swift; sourceTree = "<group>"; };
+		2E9950D91EB1B91300E27F4F /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		2E9950E61EB1E1AE00E27F4F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2E9950E71EB1E1AE00E27F4F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2E9950F01EB1E21D00E27F4F /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		2E9950F11EB1E21D00E27F4F /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		2E9950F81EB1F35F00E27F4F /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
 		8191AD44AE2E56D00DFCC38B /* Pods-YMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMDemo/Pods-YMDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BBEC3B475870E2C7F5A42C3D /* Pods_YMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D672A29E6EA1CE758484051E /* Pods-YMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMDemo/Pods-YMDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -658,6 +732,48 @@
 			path = YMBarChartView;
 			sourceTree = "<group>";
 		};
+		2E3A123F1EAEEA1D00854F4B /* LineChart(折线图) */ = {
+			isa = PBXGroup;
+			children = (
+				2E3A12401EAEEA1D00854F4B /* ZFLineChart */,
+				2E3A124A1EAEEA3300854F4B /* YMLineChartVC.swift */,
+			);
+			path = "LineChart(折线图)";
+			sourceTree = "<group>";
+		};
+		2E3A12401EAEEA1D00854F4B /* ZFLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				2E3A12641EAEEE7300854F4B /* NSString+Zirkfied.h */,
+				2E3A12651EAEEE7300854F4B /* NSString+Zirkfied.m */,
+				2E3A12661EAEEE7300854F4B /* ZFMethod.h */,
+				2E3A12671EAEEE7300854F4B /* ZFMethod.m */,
+				2E3A12611EAEECC900854F4B /* ZFLabel.h */,
+				2E3A12621EAEECC900854F4B /* ZFLabel.m */,
+				2E3A125E1EAEECA300854F4B /* ZFYAxisLine.h */,
+				2E3A125F1EAEECA300854F4B /* ZFYAxisLine.m */,
+				2E3A12581EAEEC7000854F4B /* UIView+Zirkfied.h */,
+				2E3A12591EAEEC7000854F4B /* UIView+Zirkfied.m */,
+				2E3A125A1EAEEC7000854F4B /* ZFXAxisLine.h */,
+				2E3A125B1EAEEC7000854F4B /* ZFXAxisLine.m */,
+				2E3A12551EAEEC1C00854F4B /* ZFGenericAxis.h */,
+				2E3A12561EAEEC1C00854F4B /* ZFGenericAxis.m */,
+				2E3A12521EAEEB6200854F4B /* ZFPopoverLabel.h */,
+				2E3A12531EAEEB6200854F4B /* ZFPopoverLabel.m */,
+				2E3A124F1EAEEB1100854F4B /* ZFGenericChart.h */,
+				2E3A12501EAEEB1100854F4B /* ZFGenericChart.m */,
+				2E3A124C1EAEEAC900854F4B /* ZFConst.h */,
+				2E3A124D1EAEEAC900854F4B /* ZFConst.m */,
+				2E3A12411EAEEA1D00854F4B /* ZFCircle.h */,
+				2E3A12421EAEEA1D00854F4B /* ZFCircle.m */,
+				2E3A12431EAEEA1D00854F4B /* ZFLine.h */,
+				2E3A12441EAEEA1D00854F4B /* ZFLine.m */,
+				2E3A12451EAEEA1D00854F4B /* ZFLineChart.h */,
+				2E3A12461EAEEA1D00854F4B /* ZFLineChart.m */,
+			);
+			path = ZFLineChart;
+			sourceTree = "<group>";
+		};
 		2E735DBE1E9F13D700F0A485 = {
 			isa = PBXGroup;
 			children = (
@@ -724,6 +840,8 @@
 		2E735E001E9F19A300F0A485 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				2E9950BE1EB17E0D00E27F4F /* FactoryMode(工厂模式) */,
+				2E3A123F1EAEEA1D00854F4B /* LineChart(折线图) */,
 				2E3A122A1EAD9F6D00854F4B /* BarChart(柱状图) */,
 				2E2B00BC1EA88424005E59A6 /* RSA(加密) */,
 				2E2B006E1EA5EEA8005E59A6 /* TableView(联动) */,
@@ -822,9 +940,65 @@
 		2E735E371E9F7DFE00F0A485 /* Lib(三方框架) */ = {
 			isa = PBXGroup;
 			children = (
+				2E9950BA1EB0882A00E27F4F /* FPS */,
 				2E351D001EA07DC500859FE0 /* ShareSDK */,
 			);
 			path = "Lib(三方框架)";
+			sourceTree = "<group>";
+		};
+		2E9950BA1EB0882A00E27F4F /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				2E9950BB1EB0882A00E27F4F /* FPSDisplay.h */,
+				2E9950BC1EB0882A00E27F4F /* FPSDisplay.m */,
+			);
+			path = FPS;
+			sourceTree = "<group>";
+		};
+		2E9950BE1EB17E0D00E27F4F /* FactoryMode(工厂模式) */ = {
+			isa = PBXGroup;
+			children = (
+				2E9950E61EB1E1AE00E27F4F /* 1.png */,
+				2E9950E71EB1E1AE00E27F4F /* 2.png */,
+				2E9950F01EB1E21D00E27F4F /* 3.jpeg */,
+				2E9950F11EB1E21D00E27F4F /* 4.jpeg */,
+				2E9950F81EB1F35F00E27F4F /* 5.jpeg */,
+				2E9950C41EB1815500E27F4F /* Controller */,
+				2E9950C61EB1815500E27F4F /* Model */,
+				2E9950C71EB1815500E27F4F /* View */,
+			);
+			path = "FactoryMode(工厂模式)";
+			sourceTree = "<group>";
+		};
+		2E9950C41EB1815500E27F4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E9950D91EB1B91300E27F4F /* data.plist */,
+				2E9950C51EB1815500E27F4F /* YMFactroyModeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E9950C61EB1815500E27F4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E9950C91EB1818000E27F4F /* YMBaseModel.swift */,
+				2E9950CB1EB181E000E27F4F /* YMImagesModel.swift */,
+				2E9950CD1EB181EF00E27F4F /* YMNewModel.swift */,
+				2E9950CF1EB1820700E27F4F /* YMMusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E9950C71EB1815500E27F4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E9950D11EB1843700E27F4F /* YMBaseCell.swift */,
+				2E9950D31EB1876300E27F4F /* YMImagesCell.swift */,
+				2E9950D51EB1876E00E27F4F /* YMNewCell.swift */,
+				2E9950D71EB1877900E27F4F /* YMMusicCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AA98F8BA5A557893D249E458 /* Pods */ = {
@@ -967,6 +1141,7 @@
 				2E2B00841EA5F21F005E59A6 /* liwushuo.json in Resources */,
 				2E351D3E1EA07DC500859FE0 /* README.txt in Resources */,
 				2E735E161E9F1B3D00F0A485 /* Main.storyboard in Resources */,
+				2E9950EC1EB1E1AE00E27F4F /* 2.png in Resources */,
 				2E2B00851EA5F21F005E59A6 /* meituan.json in Resources */,
 				2E351D401EA07DC500859FE0 /* ShareSDK.bundle in Resources */,
 				2E2B006D1EA4B9DC005E59A6 /* YMAlertViewVC.xib in Resources */,
@@ -974,13 +1149,18 @@
 				2E2B029D1EA88F54005E59A6 /* LICENSE in Resources */,
 				2E351D311EA07DC500859FE0 /* ShareSDKUI.bundle in Resources */,
 				2E735E151E9F1B3D00F0A485 /* LaunchScreen.storyboard in Resources */,
+				2E9950EB1EB1E1AE00E27F4F /* 1.png in Resources */,
+				2E9950F91EB1F35F00E27F4F /* 5.jpeg in Resources */,
 				2E351D3A1EA07DC500859FE0 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				2E9950DA1EB1B91300E27F4F /* data.plist in Resources */,
+				2E9950F41EB1E21D00E27F4F /* 4.jpeg in Resources */,
 				2E2B02401EA88ACC005E59A6 /* YMRSAVC.xib in Resources */,
 				2E41CA341EA9AEC900BACCCD /* server.cer in Resources */,
 				2E2B02A01EA88F54005E59A6 /* rsa_private_key.pem in Resources */,
 				2E351D3C1EA07DC500859FE0 /* WeiboSDK.bundle in Resources */,
 				2E2B02A11EA88F54005E59A6 /* rsa_public_key.pem in Resources */,
 				2E735E941EA06A3100F0A485 /* Info.plist in Resources */,
+				2E9950F31EB1E21D00E27F4F /* 3.jpeg in Resources */,
 				2E735E141E9F1B3D00F0A485 /* Assets.xcassets in Resources */,
 				2E2B00721EA5EEC9005E59A6 /* YMTableVC.xib in Resources */,
 			);
@@ -1056,39 +1236,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E2B006B1EA4B9C7005E59A6 /* YMAlertViewVC.swift in Sources */,
+				2E3A12491EAEEA1D00854F4B /* ZFLineChart.m in Sources */,
 				2E3A12391EADA11100854F4B /* UIColor+Hex.m in Sources */,
 				2E735E191E9F1BC200F0A485 /* YMPushSetting.swift in Sources */,
 				2E735E1B1E9F1C8E00F0A485 /* YMFindVC.swift in Sources */,
+				2E3A125C1EAEEC7000854F4B /* UIView+Zirkfied.m in Sources */,
 				2E735E301E9F795B00F0A485 /* YMNetworkTool.swift in Sources */,
+				2E9950D01EB1820700E27F4F /* YMMusicModel.swift in Sources */,
+				2E3A124E1EAEEAC900854F4B /* ZFConst.m in Sources */,
 				2E2B00821EA5F21F005E59A6 /* CollectionViewController.swift in Sources */,
+				2E3A12571EAEEC1C00854F4B /* ZFGenericAxis.m in Sources */,
+				2E3A124B1EAEEA3300854F4B /* YMLineChartVC.swift in Sources */,
+				2E3A12601EAEECA300854F4B /* ZFYAxisLine.m in Sources */,
+				2E9950BD1EB0882A00E27F4F /* FPSDisplay.m in Sources */,
 				2E2B008A1EA5F21F005E59A6 /* TableViewHeaderView.swift in Sources */,
 				2E735E0C1E9F1AF500F0A485 /* AppDelegate.swift in Sources */,
 				2E735E281E9F265200F0A485 /* UIColor+Extension.swift in Sources */,
+				2E9950CE1EB181EF00E27F4F /* YMNewModel.swift in Sources */,
+				2E9950D61EB1876E00E27F4F /* YMNewCell.swift in Sources */,
 				2E2B00861EA5F21F005E59A6 /* CategoryModel.swift in Sources */,
+				2E3A12471EAEEA1D00854F4B /* ZFCircle.m in Sources */,
 				2E3A123A1EADA11100854F4B /* UIView+Extension.m in Sources */,
 				2E735E1F1E9F1CB600F0A485 /* YMMineVC.swift in Sources */,
 				2E3A12321EADA09E00854F4B /* YMBarChartView.m in Sources */,
+				2E3A12691EAEEE7300854F4B /* ZFMethod.m in Sources */,
 				2E735E021E9F19CD00F0A485 /* YMBaseVC.swift in Sources */,
 				2E735E1D1E9F1C9F00F0A485 /* YMChatVC.swift in Sources */,
+				2E3A12541EAEEB6200854F4B /* ZFPopoverLabel.m in Sources */,
 				2E3A123E1EADAE1000854F4B /* YMBarChartVC.swift in Sources */,
 				2E735DFD1E9F18C900F0A485 /* YMBaseTabbarVC.swift in Sources */,
 				2E2B023F1EA88ACC005E59A6 /* YMRSAVC.swift in Sources */,
 				2E3A12341EADA09E00854F4B /* YMYBarView.m in Sources */,
 				2E2B00871EA5F21F005E59A6 /* LeftTableViewCell.swift in Sources */,
+				2E3A12481EAEEA1D00854F4B /* ZFLine.m in Sources */,
 				2E2B00811EA5F21F005E59A6 /* CollectionViewCell.swift in Sources */,
+				2E3A125D1EAEEC7000854F4B /* ZFXAxisLine.m in Sources */,
+				2E9950D41EB1876300E27F4F /* YMImagesCell.swift in Sources */,
+				2E9950D21EB1843700E27F4F /* YMBaseCell.swift in Sources */,
 				2E735E2D1E9F26D500F0A485 /* YMConstant.swift in Sources */,
+				2E9950D81EB1877900E27F4F /* YMMusicCell.swift in Sources */,
 				2E2B02A21EA88F54005E59A6 /* YMRSAHandler.m in Sources */,
 				2E2B008C1EA5F368005E59A6 /* LJCollectionViewFlowLayout.swift in Sources */,
+				2E3A12681EAEEE7300854F4B /* NSString+Zirkfied.m in Sources */,
 				2E735E351E9F7A2B00F0A485 /* YMLoginVC.swift in Sources */,
 				2E3A12331EADA09E00854F4B /* YMXBarView.m in Sources */,
+				2E3A12631EAEECC900854F4B /* ZFLabel.m in Sources */,
 				2E735E291E9F265200F0A485 /* UIImage+Extendion.swift in Sources */,
+				2E9950CC1EB181E000E27F4F /* YMImagesModel.swift in Sources */,
 				2E351D381EA07DC500859FE0 /* README.md in Sources */,
 				2E2B00711EA5EEC9005E59A6 /* YMTableVC.swift in Sources */,
 				2E2B00831EA5F21F005E59A6 /* CollectionViewHeaderView.swift in Sources */,
+				2E9950C81EB1815500E27F4F /* YMFactroyModeVC.swift in Sources */,
 				2E2B00881EA5F21F005E59A6 /* RightTableViewCell.swift in Sources */,
 				2E2B00B91EA73C3E005E59A6 /* YMCHViewController.m in Sources */,
 				2E2B00801EA5F21F005E59A6 /* CollectionCategoryModel.swift in Sources */,
+				2E3A12511EAEEB1100854F4B /* ZFGenericChart.m in Sources */,
 				2E735DFF1E9F196000F0A485 /* YMNavigationController.swift in Sources */,
+				2E9950CA1EB1818000E27F4F /* YMBaseModel.swift in Sources */,
 				2E2B00891EA5F21F005E59A6 /* TableViewController.swift in Sources */,
 				2E735E081E9F1A4300F0A485 /* YMHomeVC.swift in Sources */,
 			);

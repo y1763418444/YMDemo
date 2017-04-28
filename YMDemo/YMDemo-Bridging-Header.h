@@ -39,3 +39,9 @@
 // 滚动的柱状图
 #import "YMBarChartView.h"
 
+// 折线图
+#import "ZFLineChart.h"
+
+// FPS
+#import "FPSDisplay.h"
+

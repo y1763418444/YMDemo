@@ -40,6 +40,7 @@ extension YMTableVC:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellID = "cellID"
         let cell = UITableViewCell.init(style: .default, reuseIdentifier: cellID)
+        cell.selectionStyle = .none
         cell.textLabel?.text = dataArray![indexPath.row] as? String
         return cell
     }

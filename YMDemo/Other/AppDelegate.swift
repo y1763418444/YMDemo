@@ -23,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.white
         let baseVC = YMBaseTabbarVC.sharedBaseTabBarViewController()
         window?.rootViewController = baseVC
+        window?.makeKeyAndVisible()
+        
+        FPSDisplay.share()
         return true
     }
     

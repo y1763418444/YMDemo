@@ -34,6 +34,9 @@ typedef void(^RunloopBlock)(void);
 }
 void CallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info){
     YMCHViewController *vc = (__bridge YMCHViewController*)info;
+    if (vc.tasks.count == 0){
+        return;
+    }
     RunloopBlock task = vc.tasks.firstObject;
     task();
     [vc.tasks removeObjectAtIndex:0];
